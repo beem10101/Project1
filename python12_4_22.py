@@ -1,20 +1,19 @@
-import openpyxl 
+# import openpyxl 
 import tkinter as tk
 import xlsxwriter
-from openpyxl import *
-from tkinter import *
+# from openpyxl import *
+# from tkinter import *
 
 
 root = tk.Tk()
-wb = Workbook()
-workbook = xlsxwriter.Workbook("openxl_addinfo_12_4_22.xlsx")
+# wb = Workbook()
+workbook = xlsxwriter.Workbook("openxl_addinfo.xlsx")
 worksheet = workbook.add_worksheet()
-root.geometry("500x500")
+root.geometry("250x250")
 worksheet.write(0,0,"name")
 x=1
 def click():
     global x
-    global worksheet
     i = fname.get()
     j = userid.get()
     k = password.get()
