@@ -5,7 +5,7 @@ from tkinter import *
     
 
 root = tk.Tk()
-root.title("My interface :)")
+root.title("hello world")
 root.geometry("500x500+400+300")
 def click():
     message1=(txt1.get())
