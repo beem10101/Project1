@@ -11,6 +11,8 @@ workbook = xlsxwriter.Workbook("openxl_addinfo.xlsx")
 worksheet = workbook.add_worksheet()
 root.geometry("250x250")
 worksheet.write(0,0,"name")
+worksheet.write(0,1,"user")
+worksheet.write(0,2,"pass")
 x=1
 def click():
     global x
@@ -38,6 +40,9 @@ password.grid(column=2,row=3)
 mybutton = tk.Button(root,text="click",command=click)
 mybutton.grid(column=2,row=4)
 
-root.mainloop()
 
+root.mainloop()
 workbook.close()
+
+
+
