@@ -35,7 +35,7 @@ tk.Label(root,text="PassWord").grid(column=1,row=3)
 password = tk.Entry(root)
 password.grid(column=2,row=3)
 # button
-mybutton = tk.Button(root,text="hello",command=click)
+mybutton = tk.Button(root,text="click",command=click)
 mybutton.grid(column=2,row=4)
 
 workbook.close()
