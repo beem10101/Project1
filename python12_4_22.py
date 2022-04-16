@@ -38,5 +38,6 @@ password.grid(column=2,row=3)
 mybutton = tk.Button(root,text="click",command=click)
 mybutton.grid(column=2,row=4)
 
-workbook.close()
 root.mainloop()
+
+workbook.close()
