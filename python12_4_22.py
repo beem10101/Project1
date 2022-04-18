@@ -7,7 +7,7 @@ import xlsxwriter
 
 root = tk.Tk()
 # wb = Workbook()
-workbook = xlsxwriter.Workbook("openxl_addinfo.xlsx")
+workbook = xlsxwriter.Workbook("Project_HomeWork\Excel\openxl_addinfo.xlsx")
 worksheet = workbook.add_worksheet()
 root.geometry("250x250")
 worksheet.write(0,0,"name")
