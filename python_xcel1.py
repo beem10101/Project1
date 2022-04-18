@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-wb = load_workbook("North.xlsx")
+wb = load_workbook("Project_HomeWork\Excel\North.xlsx")
 
 ws = wb['North']
 
