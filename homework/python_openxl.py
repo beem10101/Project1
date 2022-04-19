@@ -5,7 +5,7 @@ from tkinter import *
 
 
 root = tk.Tk()
-wb = load_workbook("North.xlsx")
+wb = load_workbook('Excel1/North.xlsx')
 ws = wb["North"]
 
 colum_a = ws['A']
