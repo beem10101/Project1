@@ -6,12 +6,12 @@ import xlsxwriter
 
 
 root = tk.Tk()
-# wb = Workbook()
-workbook = xlsxwriter.Workbook("Project_HomeWork\Excel\openxl_addinfo.xlsx")
+
+workbook = xlsxwriter.Workbook("C:\\Users\\User\\Desktop\\GIT_HUB\\Project_HomeWork\\homework\\Excel1\\openxl_addinfo.xlsx")
 worksheet = workbook.add_worksheet()
 root.geometry("250x250")
 worksheet.write(0,0,"name")
-worksheet.write(0,1,"user")
+worksheet.write(0,1,"user id")
 worksheet.write(0,2,"pass")
 x=1
 def click():
