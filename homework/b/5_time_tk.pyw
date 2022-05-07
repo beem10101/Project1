@@ -3,9 +3,9 @@ from tkinter import *
 import time
 
 root = tk.Tk()
+# root.iconbitmap('Martz90-Circle-Plex.ico')
 
-
-mylable = Label(root)
+mylable = Label(root,font=('Arirl',30))
 mylable.pack()
 
 def time_loop() :
